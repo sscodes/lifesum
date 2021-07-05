@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.quiz-qsn{
+    color: black;
+}
+
+.quiz-btnStyle{
+    background-color: rgb(13, 192, 118);
+    border: 2px rgb(13, 192, 118) solid;
+    border-radius: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+}
+
+.quiz-btnStyle:hover{
+    border: 2px rgb(13, 192, 118) solid;
+    border-radius: 50px;
+    background-color:  rgb(13, 192, 118);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+}
+
+.quiz-bg{
+    background-color: rgb(245, 245, 202);
+}

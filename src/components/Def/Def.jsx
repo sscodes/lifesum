@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row, Button } from "react-bootstrap";
 import "./Def.css";
 import "bootstrap/dist/css/bootstrap.css";
 import img1 from "./usp-barcode-e8eb86b3.svg";
@@ -7,7 +7,6 @@ import img3 from "./usp-mealplans-28bdd983.svg";
 import img4 from "./usp-personalize-96c457f4.svg";
 import img5 from "./usp-trackers-d322008e.svg";
 import img6 from "./usp-recipes-05f70188.svg";
-import { Button } from "bootstrap";
 
 const Def = () => {
   return (
@@ -88,7 +87,7 @@ const Def = () => {
         </Col>
       </Row>
       <Row>
-        <Col>
+        <Col className="text-center py-4">
           <Button className="intro-btnStyle px-5 mx-2 my-2">
             <b>MORE FEATURES</b>
           </Button>

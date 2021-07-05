@@ -1,0 +1,15 @@
+.ls-btnStyle{
+    background-color: #0dc076;
+    border: 2px rgb(13, 192, 118) solid;
+    border-radius: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+}
+
+.ls-btnStyle:hover{
+    border: 2px rgb(13, 192, 118) solid;
+    border-radius: 50px;
+    background-color: white;
+    color: rgb(13, 192, 118);
+    font-family: "Montserrat", sans-serif;
+}

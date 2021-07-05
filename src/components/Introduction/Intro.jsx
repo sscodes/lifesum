@@ -1,6 +1,7 @@
 import { Col, Container, Row, Button } from "react-bootstrap";
 import "./Intro.css";
 import "bootstrap/dist/css/bootstrap.css";
+import img1 from './undraw_personal_trainer_ote3.svg'
 
 const Intro = () => {
   return (
@@ -22,8 +23,11 @@ const Intro = () => {
             <b>$4.17/mon</b>
           </Button>
         </Col>
-        <Col lg={4} className=""></Col>
-        <Col lg={3} className=""></Col>
+        <Col lg={1}>
+        </Col>
+        <Col lg={6} className="">
+          <img src={img1} alt="" width="700" />
+        </Col>
       </Row>
     </Container>
   );

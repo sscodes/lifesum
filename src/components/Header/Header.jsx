@@ -40,7 +40,7 @@ const Header = () => {
               </NavDropdown.Item>
             </NavDropdown>
           </div>
-            <Nav.Link href="#" disabled>
+            <Nav.Link href="#">
               LOG IN
             </Nav.Link>
             <Button className="btnTest">
