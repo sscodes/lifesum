@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="60px" viewBox="0 0 300 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>techcrunch</title>
+    <g id="techcrunch" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path" fill="#000000" fill-rule="nonzero" points="150 0 150 20 130 20 130 60 110 60 110 20 90 20 90 0"></polygon>
+        <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="170" y="0" width="40" height="20"></rect>
+        <polygon id="Path" fill="#000000" fill-rule="nonzero" points="210 40 210 60 150 60 150 20 170 20 170 40"></polygon>
+    </g>
+</svg>

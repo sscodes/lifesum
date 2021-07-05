@@ -1,33 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
-.brand{
-    text-decoration: none;
-    font-family:  'Montserrat', sans-serif;
-    font-weight: 700;
+.brand {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 
-a.navBrand.brand.navbar-brand{
-    color: green;
-    font-size: 2rem;
-    background-color: transparent;
+a.navBrand.brand.navbar-brand {
+  color: rgb(13, 192, 118);
+  font-size: 2rem;
+  background-color: transparent;
+  font-family: "Pacifico", cursive;
+  font-weight: 100;
 }
 
-.brand:hover{
-    text-decoration: none;
+.brand:hover {
+  text-decoration: none;
 }
 
-.btnTestdiv{
-    float: right;
+.btnTestdiv {
+  float: right;
 }
 
-button.btnTest.btn.btn-primary{
-    border: 1px green solid;
-    background-color: green;
-    color: black;
-    font-family:  'Montserrat', sans-serif;;
-    font-size: 1rem;
+button.btnTest.btn.btn-primary {
+  border: 2px rgb(13, 192, 118) solid;
+  background-color: white;
+  border-radius: 25px;
+  color: rgb(13, 192, 118);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
 }
 
-.r{
-    border: 2px solid black;
+button.btnTest.btn.btn-primary:hover {
+  border: 2px rgb(13, 192, 118) solid;
+  border-radius: 25px;
+  background-color: rgb(13, 192, 118);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+.r {
+  border: 2px solid black;
+}
+
+a.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+  color: black !important;
+  font-weight: 1000;
 }

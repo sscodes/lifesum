@@ -1,11 +1,15 @@
 import { Container, Navbar, Button, Nav, NavDropdown } from "react-bootstrap";
 import "./Header.css";
 import "bootstrap/dist/css/bootstrap.css";
+import { useState } from "react";
 
 const Header = () => {
+  // eslint-disable-next-line no-unused-vars
+  const [lang, setLang] = useState("EN");
+
   return (
-    <Navbar className="headerClass">
-      <Container fluid>
+    <Navbar>
+      <Container fluid className="px-5">
         <Navbar.Brand href="#" className="navBrand pl-md-2 brand">
           LifeSum
         </Navbar.Brand>
@@ -16,30 +20,30 @@ const Header = () => {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Features</Nav.Link>
-            <Nav.Link href="#action2">Articles</Nav.Link>
+            <Nav.Link href="#action1">FEATURES</Nav.Link>
+            <Nav.Link href="#action2">ARTICLES</Nav.Link>
           </Nav>
-          <div className="btnTestdiv mr-md-5">
-            <NavDropdown title="Lang" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">English</NavDropdown.Item>
+          <div className="btnTestdiv">
+            <NavDropdown title={lang} id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">EN</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
-                Italian
+                IT
               </NavDropdown.Item>
               <NavDropdown.Item href="#action5">
-                Spanish
+                SP
               </NavDropdown.Item>
               <NavDropdown.Item href="#action5">
-                German
+                GE
               </NavDropdown.Item>
               <NavDropdown.Item href="#action5">
-                Japanese
+                JP
               </NavDropdown.Item>
             </NavDropdown>
           </div>
             <Nav.Link href="#" disabled>
-              Login
+              LOG IN
             </Nav.Link>
-            <Button className="btnTest px-5">
+            <Button className="btnTest">
               <b>Sign Up</b>
             </Button>
         </Navbar.Collapse>
