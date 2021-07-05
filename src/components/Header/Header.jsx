@@ -8,13 +8,13 @@ const Header = () => {
   const [lang, setLang] = useState("EN");
 
   return (
-    <Navbar>
+    <Navbar collapseOnSelect expand="lg">
       <Container fluid className="px-5">
         <Navbar.Brand href="#" className="navBrand pl-md-2 brand">
           LifeSum
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
+        <Navbar.Collapse id="navbarScroll" className="justify-content-end">
           <Nav
             className="mr-auto my-2 my-lg-0"
             style={{ maxHeight: "100px" }}
@@ -23,29 +23,17 @@ const Header = () => {
             <Nav.Link href="#action1">FEATURES</Nav.Link>
             <Nav.Link href="#action2">ARTICLES</Nav.Link>
           </Nav>
-          <div className="btnTestdiv">
-            <NavDropdown title={lang} id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">EN</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                IT
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action5">
-                SP
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action5">
-                GE
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action5">
-                JP
-              </NavDropdown.Item>
-            </NavDropdown>
-          </div>
-            <Nav.Link href="#">
-              LOG IN
-            </Nav.Link>
-            <Button className="btnTest">
-              <b>Sign Up</b>
-            </Button>
+          <NavDropdown title={lang} id="navbarScrollingDropdown">
+            <NavDropdown.Item href="#action3">EN</NavDropdown.Item>
+            <NavDropdown.Item href="#action4">IT</NavDropdown.Item>
+            <NavDropdown.Item href="#action5">SP</NavDropdown.Item>
+            <NavDropdown.Item href="#action5">GE</NavDropdown.Item>
+            <NavDropdown.Item href="#action5">JP</NavDropdown.Item>
+          </NavDropdown>
+          <Nav.Link href="#">LOG IN</Nav.Link>
+          <Button className="btnTest">
+            <b>Sign Up</b>
+          </Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>

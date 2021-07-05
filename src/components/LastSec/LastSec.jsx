@@ -31,7 +31,7 @@ const LastSec = () => {
       </Row>
       <Row className="text-center py-5">
         <Col>
-        <img src={img1} alt="" width="500" />
+        <img src={img1} alt="" width="500" className="img-fluid" />
         </Col>
       </Row>
     </Container>

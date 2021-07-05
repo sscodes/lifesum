@@ -19,9 +19,6 @@ a.navBrand.brand.navbar-brand {
   text-decoration: none;
 }
 
-.btnTestdiv {
-  float: right;
-}
 
 button.btnTest.btn.btn-primary {
   border: 2px rgb(13, 192, 118) solid;

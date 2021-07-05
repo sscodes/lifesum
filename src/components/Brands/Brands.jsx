@@ -16,13 +16,13 @@ const Brands = () => {
         </Col>
       </Row>
       <Row className="py-4">
-          <Col md={1}  ></Col>
-          <Col md={2}><img src={img1} alt="" width="200" /></Col>
-          <Col md={2}><img src={img2} alt="" width="200" /></Col>
-          <Col md={2}><img src={img3} alt="" width="200" /></Col>
-          <Col md={2}><img src={img4} alt="" width="200" /></Col>
-          <Col md={2}><img src={img5} alt="" width="200" /></Col>
-          <Col md={1}></Col>
+          <Col lg={1} className="d-none d-lg-block"  ></Col>
+          <Col sm={4} lg={2}><img src={img1} alt="" width="200" className="img-fluid p-3" /></Col>
+          <Col sm={4} lg={2}><img src={img2} alt="" width="200" className="img-fluid p-3" /></Col>
+          <Col sm={4} lg={2}><img src={img3} alt="" width="200" className="img-fluid p-3" /></Col>
+          <Col sm={6} lg={2}><img src={img4} alt="" width="200" className="img-fluid p-3" /></Col>
+          <Col sm={6} lg={2}><img src={img5} alt="" width="200" className="img-fluid p-3" /></Col>
+          <Col lg={1} className="d-none d-lg-block"></Col>
       </Row>
     </Container>
   );

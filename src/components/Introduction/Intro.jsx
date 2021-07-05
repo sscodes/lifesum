@@ -23,10 +23,8 @@ const Intro = () => {
             <b>$4.17/mon</b>
           </Button>
         </Col>
-        <Col lg={1}>
-        </Col>
-        <Col lg={6} className="">
-          <img src={img1} alt="" width="700" />
+        <Col lg={7} className="">
+          <img src={img1} alt="" width="700" className="img-fluid" />
         </Col>
       </Row>
     </Container>
